@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+.DS_Store
+.idea/
+.vscode/
+
+# Scan output must never be committed: an unredacted report identifies the
+# machine it was taken from.
+macrecon-report-*.html
+macrecon-report-*.json
+macrecon-report-*.txt
+*-UNREDACTED*
+report.html
+report.json
+report.txt

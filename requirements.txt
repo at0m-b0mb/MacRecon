@@ -1,0 +1,7 @@
+# MacRecon runtime dependency.
+# The --cli report needs nothing beyond the standard library; PyQt6 is only
+# required for the GUI.
+PyQt6>=6.5
+
+# Only needed to regenerate assets/banner.png via tools/make_banner.py:
+# Pillow>=10.0
